@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.container{
+    margin: 10px;
+    width: 50% !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.todoForm{
+    background: #A569BD;
+    gap: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.todoInput{
+    background-color: #F4ECF7 !important;
+    border: none !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.todoInput:focus {
+    box-shadow: none !important;
 }
 
-.App-link {
-  color: #61dafb;
+.todoSave{
+    background: #8E44AD !important;
+    border: none !important ;
+    box-shadow: none !important;
+    transition: all .3s ease-in;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todoSave:hover{
+    background: #7D3C98 !important;
 }
+
+.todoList{
+    background: #AF7AC5;
+    gap: 10px;
+}
+
+.todo{
+    width: 100%;
+}
+
+.todo:hover{
+    background: #9B59B6;
+}
+
+.todoUpdate{
+    gap: 10px;
+}
+
+.todoInputUpdate{
+    background-color: #F4ECF7 !important;
+    border: none !important;
+}
+
+.todoInputUpdate:focus {
+    box-shadow: none !important;
+}
+
